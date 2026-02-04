@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise Three - Image</title>
+</head>
+<body>
+    <header>
+        <h1>Andrew Connolly</h1>
+    </header>
+
+    <main>
+        <img src="images/jack.gif" alt="Picture of Jack" width="80" height="120" img>
+        <p>Jack is a very curious individual. When he's not busy telling <i>bad jokes</i> to his friends, he's <i>pulling pranks</i> on people with various props like cardboard boxes. Despite that, he has a <i>heart of gold</i> aand deeply cares for his friends and family</p>
+        <p>Anyone who has lost track of time when using a computer knows the propensity to dream, the urge to make dreams come true and the tendency to miss lunch, from Tim Berners-Lee.
+    </main>
+
+    <footer>
+        <p>Page created by Andrew Connolly, 2026 &copy;</p>
+
+
+</body>
+</html>

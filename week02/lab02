@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise Two - Layout</title>
+</head>
+<body>
+    <header>
+        <h1>Andrew Connolly</h1>
+    </header>
+
+    <main>
+        <h2>Creative Computing</h2>
+        <p>I have had a pleasant experience with creative computing thus far. I feel it has given me a lot of insight into how the creative process of digital media works and I hope to be able to produce my own digital media someday</p>
+    </main>
+
+    <footer>
+        <i>Andrew Connolly &copy;</i>
+    </footer>
+
+
+</body>
+</html>
