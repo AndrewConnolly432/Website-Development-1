@@ -1,0 +1,50 @@
+body {
+background-color: DarkOrange;
+}
+h1 {
+  color: Black;
+  text-align: center;
+  font-family: Arial;
+  font-size: 50px;
+  font-style: bold;
+
+}
+p {
+  font-family: Times New Roman;
+  font-size: 20px;
+  color: Indigo;
+  text-align: left;
+}
+
+h2 {
+  font-family: Arial;
+  font-size: 20px;
+  color: Black;
+  text-align: left;
+  font-style: bold;
+}
+
+ul {
+  font-family: Times New Roman;
+  font-size: 20px;
+  color: Black;
+  text-align: left;
+}
+
+ /* unvisited link */
+a:link{
+color:MediumBlue;
+}
+ 
+ /* visited link */
+a:visited{
+color: DeepSkyBlue;
+}
+ /* mouse over link */
+a:hover{
+color:OrangeRed;
+}
+ /* selected link */
+a:active{
+color:DarkMagenta;
+}
