@@ -1,10 +1,11 @@
 body {
-background-color: DarkOrange;
+  background-color: darkorange;
 }
+
 h1 {
   color: Black;
   text-align: center;
-  font-family: Arial;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 50px;
   font-style: bold;
 
@@ -17,7 +18,7 @@ p {
 }
 
 h2 {
-  font-family: Arial;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   color: Black;
   text-align: left;
@@ -25,7 +26,7 @@ h2 {
 }
 
 ul {
-  font-family: Times New Roman;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
   color: Black;
   text-align: left;
@@ -54,9 +55,39 @@ color:DarkMagenta;
 }
 
 .box {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:'Times New Roman', Times, serif;
   color: white;
   text-align: center;
   line-height: 100px;
   float: left;
+}
+
+.ui.tabular.menu {
+    margin-bottom:1em;
+    border-color: lime;
+}
+
+.ui.tabular.menu .item {
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+    font-weight:bold;
+}
+
+.ui.tabular.menu .item:hover {
+    background-color:lightblue;
+    color:black;
+    border-radius: 0rem 1rem 5px 5px;
+    border-color: lightgreen;
+}
+
+.ui.tabular.menu .active.item {
+    background-color:darkblue;
+    color:black;
+    border-radius: 0rem 1rem 5px 5px;
+    border-color: lime;
+}
+
+.ui.bottom.attached.segment {
+  background: none transparent;
+  border-color: black;
 }

@@ -2,25 +2,22 @@
 <html>
 <head>
 <title>Home</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fomantic-ui/2.9.4/semantic.min.css">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<nav>
-<table>
-<tr>
-<td><p><button><a href="index.html" >Home Page</a></button></p></td>
-<td><p><button><a href="family.html" >My Family</a></button></p></td>
-<td><p><button><a href="interests.html" >My Interests</a></button></p></td>
-</tr>
-</table>
+<nav class="ui top attached tabular menu">
+  <a class="active item" href= "index.html">Home Page</a>
+  <a class="item" href = "family.html">My Family</a>
+  <a class="item" href = "interests.html">My Interests</a>
 </nav>
+<main class="ui bottom attached tab item active segment">
 
 <header>
 <h1>My website</h1>
 </header>
 
-<main>
 <p>Hello.</p>
 <p>My name is Andrew Connolly.</p>
 
@@ -29,7 +26,9 @@
 <p>I am going to use these web pages to explain more about myself</p>
   <br>
 </div>
+</main>
 
+<main class="ui bottom attached tab item active segment">
 <h2>My interests include:</h2>
 <ul>
   <li>Technology</li>
@@ -37,7 +36,10 @@
   <li>Art</li>
   <li>Mathematics</li>
 </ul>
+</main>
 
+<main>
+<h2>Socials</h2>
 <p>These are links to my socials on some of the websites I regularly use:</p>
 
 <p><button><a href="https://www.instagram.com/andrew_connolly432?igsh=MTQ4bTB1YzhxazN1dQ==" target="_blank" >Instagram</a></button></p>
