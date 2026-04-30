@@ -91,3 +91,13 @@ color:DarkMagenta;
   background: none transparent;
   border-color: black;
 }
+
+.ui.container {
+   overflow:scroll;
+}
+
+.ui.table {
+  background-color: red;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
